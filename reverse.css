@@ -1,0 +1,99 @@
+.dis1{ 
+    display: flex; 
+    justify-content: space-around; 
+    color:white;
+} 
+.font1{ 
+    font-size: 20px; 
+}  
+ body{ 
+    background-color: rgb(21, 4, 36); 
+ } 
+ .button1{ 
+    margin-left: 1200px;
+ } 
+ .login1{ 
+    background-color:inherit; 
+    border-bottom:none; 
+    border-top: none; 
+    border-left:none; 
+    color:white; 
+    margin-left:50px;
+ } 
+  .join1{ 
+    background-color: rgb(5, 123, 249); 
+    color:white; 
+    padding:10px;  
+    width:90px;
+  } 
+  .welcome1{ 
+    color:rgb(9, 58, 252); 
+    margin-left:60px;
+  } 
+  .emmy6{ 
+    margin-left: 600px;
+  } 
+  .emmy1{ 
+    color:white; 
+    font-size: 30px;
+  } 
+  .emmy2{ 
+    color:white; 
+    font-size: small;
+  } 
+   .emmy3{ 
+    margin-left: 30px; 
+    color:white; 
+    font-size: small;
+   } 
+    .emmy4{ 
+      background-color: rgb(1, 88, 248); 
+      color:white; 
+      padding:8px; 
+      border-color: rgb(8, 8, 235);
+    } 
+      .emmy5{ 
+        padding:8px; 
+        color:rgb(8, 8, 244); 
+        background-color: inherit; 
+        border-color: rgb(10, 10, 252);
+      } 
+       .emmy16{ 
+        display:flex;  
+        margin-top: 80px; 
+        gap:30px; 
+        color:black; 
+        box-shadow: 2px 4px 6px 8px; 
+        background-color: white;  
+        height:300px;
+
+       } 
+        .emmy7{ 
+        margin-top:-50px; 
+         margin-left:20px;
+        }
+
+          .box{
+      width: 230px;
+      height: 200px;
+      background-color: white;
+      color: black;
+      border-radius: 5px;
+      text-align:center;
+      margin-top: 20px;
+  }
+    .box-3{
+      width: 230px;
+      height: 200px;
+      background-color: rgb(9, 103, 191);
+      color: white;
+      border-radius: 5px;
+        text-align:center;
+       margin-top: 20px;
+  }
+  .hold-box{
+      display: flex;
+      gap: 20px;
+      justify-content:center ;
+      margin-top: 40px;
+  }

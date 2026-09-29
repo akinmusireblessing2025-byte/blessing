@@ -1,0 +1,99 @@
+body{ 
+    background-color:rgb(8, 0, 5);
+    color:white;
+} 
+.navbar{ 
+display: flex; 
+justify-content: space-between; 
+align-items: center; 
+padding:25px;
+} 
+ 
+.logo{ 
+    font-size:24px; 
+    font-weight: bolder;
+} 
+ 
+.nav-menu{ 
+    display:flex; 
+    list-style: none; 
+    gap: 25px; 
+    text-decoration:none; 
+    font-weight:bold; 
+} 
+.nav-right{ 
+    display: flex; 
+    align-items: center; 
+    gap:20px;
+} 
+ .login{ 
+    text-decoration:none; 
+    font-weight: bold;
+ } 
+ .btn-join{ 
+    background-color: blue; 
+    color:white; 
+    padding:12px; 
+    border-radius:5px; 
+    text-decoration: none; 
+    font-weight: bold;
+ } 
+  .hero{ 
+    text-align: center; 
+    padding:60px;
+  } 
+  .welcome-text{ 
+    color:blue; 
+    font-weight: bold; 
+    margin-bottom: 15px;
+  } 
+   
+  .hero-desc{ 
+    font-size: small; 
+    margin-bottom: 30px;
+  } 
+   
+  .emmy1{ 
+ 
+    background-color:blue; 
+color:white; 
+width:180px; 
+padding:10px;
+  } 
+     .emmy2{ 
+        background-color: blue; 
+        border-top: none; 
+        border-bottom: none; 
+        padding:10px; 
+        color:white; 
+        width:180px;
+     }   
+      
+      
+      .features{ 
+        display:flex; 
+        justify-content: center; 
+        gap:30px; 
+      } 
+       
+      .feature-card{ 
+        background-color:white; 
+        color:black; 
+        padding:35px; 
+        width:200px; 
+        border-radius: 5px; 
+      } 
+      .feature-card1{ 
+        background-color: blue; 
+        color:black; 
+        padding: 30px; 
+        width:200px; 
+        border-radius: 5px;
+      }
+        
+      
+
+     
+   
+
+  

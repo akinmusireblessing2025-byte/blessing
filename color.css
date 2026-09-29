@@ -1,0 +1,11 @@
+ #all{ 
+    width:600px;  
+    background:linear-gradient(red) ; 
+    height:400px;  
+    text-align: center; 
+    margin-top: 10px;
+ } 
+button{ 
+    margin-left:60px; 
+    color:blue;
+}

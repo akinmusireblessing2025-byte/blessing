@@ -1,0 +1,42 @@
+ #emmy{ 
+    font-weight: bolder;
+     font-size:30px; 
+    
+ } 
+ input{ 
+    border-top: none; 
+    border-left: none; 
+    border-right: none; 
+    font-size: medium;
+ } 
+  #emmy1{ 
+    border-top:none; 
+    border-left:none; 
+    border-left:none; 
+    font-size: medium;
+  } 
+   #emmy2{
+    border-top:none; 
+    border-left:none; 
+    border-right:none ; 
+    font-size: medium;
+   } 
+    #emmy3{ 
+        border-top: none; 
+        border-left:none; 
+        border-right:none; 
+        font-size: medium;
+    } 
+    button{ 
+        font-weight: bolder; 
+        color:black; 
+        border-radius:200px; 
+        width:300px; 
+        height:30px;
+    } 
+      #emmy4{ 
+        color:blue;
+      } 
+       #padding-style{ 
+        padding:90px;
+       }

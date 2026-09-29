@@ -1,0 +1,41 @@
+<html>  
+    <head>   
+        <link rel="stylesheet"href="shopping.css">
+   <title>Simple Shopping Calculator</title>
+    </head> 
+    <body>  
+        <div class = "emmy1"> 
+        <h1>Shopping Calculator</h1>  
+        <p class ="subtitle">Enter product details to get your receipt</p>
+         
+        <div class ="emmy2">
+        <label for="Productname">Product name</label>
+        <input type="text"id="Productname"placeholder="e.g. Rice Bag">  
+        </div>
+          
+        <div class = "emmy3">
+        <label for ="Productprice">Product Price</label>
+        <input type="number"id="Productprice"placeholder="e.g. 2500">  
+        </div>  
+
+         <div class = "emmy4">
+        <label  for ="Quantity">Quantity</label>
+        <input type="number"id="Quantity"placeholder="e.g. 2"value="1">  
+        </div>
+         
+         <button onclick="calculate()">Calculate Bill</button>  
+
+        <div class ="emmy5"id="result"> 
+            <h2>Receipt</h2> 
+            <p>Product:</p> 
+            <p>Price * Qty:</p> 
+            <p>Subtotal:</p> 
+            <p>Discount 10%:</p> //
+            <p>Total to pay:</p>
+        </div>
+        </div>
+        
+    
+    <script src="shopping.js"></script>
+    </body>
+</html>

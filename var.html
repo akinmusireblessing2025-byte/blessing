@@ -1,0 +1,29 @@
+<html>  
+    <head> 
+
+    </head>
+    <body>  
+              <input type="text" id="em" value="10"> 
+              <p id="demo"> 
+                
+              </p>
+    
+       <script>  
+         var y = document.getElementById("em"); 
+         var x = document.getElementById("em").value; 
+         y.addEventListener("click", function(){ 
+            showme(x)
+         }); 
+         function showme(b){ 
+            document.getElementById("demo").innerHTML=b;
+         }
+
+
+       </script>  
+
+
+    </body> 
+
+
+    
+</html>

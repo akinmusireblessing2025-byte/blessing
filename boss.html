@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       #emmy3{ 
+        width:650px; 
+        background-color: white; 
+        height:300px; 
+        margin-left:450px; 
+        padding-top: 70px; 
+        padding-bottom:1px; 
+        margin-top:90px;
+       } 
+       body{ 
+        background:linear-gradient(red);
+       } 
+        #screen{ 
+            margin-left:650px; 
+            margin-top:-200px;
+        } 
+         #emmy1{ 
+            margin-left:40px;
+         } 
+          #emmy2{ 
+            margin-left:40px;
+          } 
+          label{ 
+            margin-left: 40px;
+          } 
+          button{ 
+            margin-left:180px; 
+            color:red; 
+          }
+
+    </style>
+</head>
+<body> 
+    <div id="emmy3">
+       <label>Length :</label>
+        <input type="number" placeholder="" id=emmy1><br><br>
+        <label>breadth :</label> 
+        <input type="number" placeholder="" id=emmy2><br><br> 
+        <button onclick="submit()">Get answer</button> 
+    </div>
+         
+
+         
+        <div id="screen"> 
+        </div>
+             
+             
+             
+      <script> 
+        function submit(){ 
+            event.preventDefault(); 
+            let length = document.getElementById("emmy1").value; 
+            let breadth = document.getElementById("emmy2").value; 
+            
+            if(length ==="" || breadth ===""){ 
+                document.getElementById("screen").innerHTML="All fields are required"; 
+                return
+            } 
+            else if(length !=="" && breadth !==""){ 
+                let result = length * breadth; 
+                document.getElementById("screen").innerHTML= result;
+                if(result!==8000){
+                    document.getElementById("screen").textContent="failed";
+                    document.getElementById("screen").style="color: red";
+                }
+            }
+        } 
+          
+
+      </script>       
+             
+        
+</body>
+</html>

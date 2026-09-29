@@ -1,0 +1,138 @@
+.one{ 
+    color:red; 
+    font-weight: bolder; 
+} 
+.emmy{ 
+    display:flex; 
+    justify-content: space-around;
+} 
+.two{ 
+    color:red; 
+    font-weight: bolder;
+} 
+.three{ 
+    color:red; 
+    font-weight: bolder;
+} 
+.four{ 
+    color:red; 
+    font-weight: bolder; 
+} 
+.five{ 
+    color:red; 
+    font-weight: bolder;
+} 
+.six{ 
+    color:red; 
+    font-weight: bolder;
+} 
+ #seven{ 
+    font-size: medium; 
+    color:whitesmoke;  
+    font-weight: bolder;
+ } 
+ #eight{ 
+    color:whitesmoke; 
+    font-size: small; 
+    font-weight: bolder;
+ } 
+ .emmy1{ 
+    box-shadow:3px 4px 8px 3px gold; 
+    width:400px;  
+    height:100px;
+    margin-left:300px;     
+    background-color: rgb(243, 231, 160);
+    background: transparent;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(9px);
+ } 
+  #we{    
+    background-color: blue;
+  } 
+ #will{ 
+   background-color: blue;
+ }
+
+ body{
+    background-image: url('Screenshot_20250805-170339.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+ } 
+ input{ 
+background-color:gold; 
+font-weight: bolder; 
+text-align: center;
+ } 
+ #emmy3{ 
+    background-image:url('Screenshot_20250805-170307.jpg');  
+    background-repeat: no-repeat; 
+    width:350px;  
+    height:250px; 
+    color:white;
+    margin-left: 100px;
+    
+ } 
+ #eleven{  
+    font-weight: bolder; 
+    font-size:20px;  
+    color:black;   
+ } 
+  #twelve{ 
+    font-weight: bolder; 
+    font-size: 10px; 
+    color:black;
+  } 
+  .thirteen{ 
+    color:rgb(7, 92, 250);
+  }
+  #hold-text{
+    margin-top: -80px;
+    margin-left: 100px;
+  }
+
+  .hold-content{
+     background-color: white;
+     width: 1000px; 
+  }
+
+  #img{
+    width:250px; 
+    height:150px; 
+    float: right;
+     margin-top: -280px;
+     margin-right: 100px;
+  } 
+   #emmy4{ 
+    margin-top: -130px;
+     margin-left:650px ; 
+   } 
+ #fourteen{ 
+font-weight: bolder; 
+font-size: 20px; 
+color:black;
+ } 
+  #fiftheen{ 
+    font-weight:bolder; 
+    font-size:10px;
+  } 
+  .sixteen{ 
+    color:blue;
+  } 
+  ul{ 
+    color:brown;
+  } 
+   #content{ 
+    display: none;
+   } 
+    #six:hover  #content{ 
+      display: block; 
+      color:blue;
+    } 
+ #seventeen{ 
+  font-size: 50px; 
+  color:brown
+ } 
+  #eighteen{ 
+    font-size:20px;
+  } 
+   

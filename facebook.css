@@ -1,0 +1,40 @@
+ #emmy1{ 
+    margin-right:200px;
+ } 
+  #emmy2{ 
+    color:blue; 
+    font-weight: bolder; 
+    font-size:40px;
+  } 
+   #emmy3{ 
+    font-weight: lighter;
+   } 
+     #emmy4{ 
+         border-color: blue;
+     } 
+      #emmy7{
+         width:200px; 
+         color:white; 
+         background-color:blue ; 
+         border-color: blue;
+      } 
+         #emmy8{ 
+            color:blue; 
+            font-weight: lighter; 
+            font-size:12px ;
+         } 
+          #emmy9{ 
+            width:150px; 
+            height:35px; 
+            color:white ; 
+            background-color: green; 
+            border-color:green ;
+          }  
+            #emmy10{ 
+                font-weight: bolder; 
+
+            } 
+             #emmy5{ 
+                margin-left: 380px; 
+                margin-top:-100px ;
+             }

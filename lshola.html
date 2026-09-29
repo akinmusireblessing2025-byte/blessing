@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="greetings"> 
+
+</div> 
+<input type="text" id="greet" onkeydown="mouw()">
+<button onkeydown="mou()" id="fine">fine</button>
+<script>
+   function Welcome(){ 
+  //  document.getElementById("greetings").textContent="welcome user";
+   } 
+   Welcome();
+
+   function mouw(){
+    let dis =  document.getElementById("greet").value;
+    document.getElementById("greetings").innerHTML=dis;
+    document.getElementById("fine").style="color: red; font-weight:bolder;"; 
+
+
+   }
+ </script>
+</body>
+</html>

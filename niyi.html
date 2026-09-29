@@ -1,0 +1,20 @@
+<html> 
+    <head>
+    </head> 
+    <body> 
+<button type ="button" onclick="getData()">remove</button> 
+
+
+<div id ="screen"></div>
+
+        <script> 
+    function getData(){ 
+    //const key="userData";
+   // const getData = locaStorage.getItem(key).document.getElementById("screen").innerHTML=getData; 
+     const key = "userData"; 
+     localStorage.removeItem(key); 
+     document.getElementById("screen").innerHTML ="Data removed!";
+}
+        </script>
+    </body>
+</html>

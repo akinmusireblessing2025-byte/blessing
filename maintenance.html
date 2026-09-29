@@ -1,0 +1,41 @@
+<html> 
+    <head> 
+  <link rel = "stylesheet" href = "maintenance.css">
+
+    </head> 
+    <body> 
+        
+        <label>Width:</label> 
+        <input type = "text" id ="emmy1"><br><br>
+        <label>Age:</label>
+        <input type = "text" id ="emmy2"><br><br> 
+        <button onclick="Submit()">Submit</button> 
+         
+         
+         
+    <div id="emmy3"> 
+         
+    </div>  
+    <script>
+
+  function Submit(){ 
+    let Width = document.getElementById("emmy1").value; 
+    let Age = document.getElementById("emmy2").value; 
+    if(Width === "" && Age === ""){
+       document.getElementById("emmy3").innerHTML="All fields are required"; 
+      
+    } 
+    else if(Width<=50 && Age <=30){ 
+       // let result = Width * Age; 
+        document.getElementById("emmy3").innerHTML="your heath status is in a good condition";
+    }
+    else if(Width >50 && Age<40){
+      document.getElementById("emmy3").innerHTML="bad health condition";
+    }
+   }
+    </script>
+     
+     
+
+    </body>
+</html>

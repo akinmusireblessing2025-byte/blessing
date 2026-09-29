@@ -1,0 +1,70 @@
+<html>  
+    <head> 
+    <meta charset="UTF-8"> 
+    <title>Register - BESTFOOD</title> 
+    <link rel="stylesheet"href="resturant.css">
+    </head> 
+<body> 
+    <nav class="navbar"> 
+        <div class="logo">BEST<span>FOOD</span> 
+        </div> 
+        <div> 
+        <a href="resturant.html">Home</a> 
+        <a href="register1.html">Register</a>
+        <a href="login1.html">Login</a>
+        </div>
+    </nav> 
+     
+<div class="regbox"> 
+<h2 class="regtext">REGISTER</h2>
+ 
+<label>Full name:</label>
+<input class="inputbox"id="regName" type="text"placeholder="Emmanuel Obi"> 
+
+
+<label>Username:</label>
+<input class="inputbox"id="regUser" type="text" placeholder="emmy_foodie"> 
+  
+<div class="row"> 
+ <div>
+<label>Email:</label>
+<input class="inputbox" id="regEmail"type="email" placeholder="emmy@mail.com"> 
+ </div>
+    <div>
+<label>Phone Number:</label>
+<input class="inputbox" id="regPhone"type="number" placeholder="08089676469">  
+</div> 
+</div>
+    
+<div class="row"> 
+    <div>
+<label id ="regGender">Gender:</label> 
+<select class="inputbox"><option>Select</option><option>Male</option><option>Female</option></select> 
+    </div> 
+    <div>
+<label id="regCountry">Country:</label>
+<select class="inputbox"><option>Select</option><option>nigeria</option><option>Ghana</option><option>USA</option></select>
+</div> 
+</div>
+  
+<div class="row"> 
+    <div>
+<label>Password:</label>  
+<input class="inputbox" id="regPass" type="password"placeholder="Emmy@123"> 
+    </div>
+    <div>
+<label >Confirm Password:</label>
+<input class="inputbox" id="regConfirm" type="password"> 
+ </div> 
+ </div>
+  
+    
+<label>Address:</label>
+<input class="inputbox" id="regAddress" type="text"placeholder="no 13 doctors road">
+
+    
+<button class="loginbtn"onclick="doRegister()">REGISTER NOW</button> 
+</div> 
+<script src="resturant.js"></script>
+</body>
+</html>

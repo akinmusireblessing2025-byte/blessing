@@ -1,0 +1,41 @@
+<html> 
+    <head> 
+
+    </head> 
+    <body>   
+        <fieldset>  
+          <legend>Account Registration </legend> 
+          <label>Email</label>  
+          <input type="text" id ="email"> 
+          <hr>  
+          <label> Name</label>
+          <Input type = "text" id ="fullname"> 
+            <hr> 
+            <button onclick ="saveuser()">save Data</button> 
+             
+            <button onclick="Logout()"style="background-color: red; color:white;">Logout</button>
+
+        </fieldset>
+    <div id="screen"> 
+    </div>
+         <script>  
+         function saveuser(){ 
+            event.preventDefault(); 
+            const email = document.getElementById("email").value;  
+            const name = document.getElementById("fullname").value; 
+             
+            localStorage.setItem("userEmail",email); 
+            localStorage.setItem("userName",name);
+         } 
+          
+          function Logout(){ 
+            event.preventDefault(); 
+            localStorage.clear();
+          }
+             
+         </script>  
+                      
+
+
+    </body>
+</html>

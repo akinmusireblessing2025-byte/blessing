@@ -1,0 +1,28 @@
+#emmy1{ 
+    font-weight: bolder; 
+    font-size:80px; 
+     color:blue;
+} 
+ #emmy2{ 
+    font-size:40px; 
+    color:rgba(0, 204, 255, 0.9)
+ } 
+  #emmy4{ 
+    font-size: 40px;  
+  } 
+   #emmy5{ 
+    margin-right:140px;  
+   }  
+   body{ 
+    background-color: blue; 
+   } 
+    #emmy6{ 
+        background:linear-gradient(white); 
+        background-size: contain; 
+        margin-top: -50px;  
+        height:500px;
+
+    } 
+    
+
+   

@@ -1,0 +1,78 @@
+ #emmy1{
+     color: blue; 
+     font-weight: bolder; 
+     font-size:40px ;
+ } 
+  #emmy3{ 
+    font-weight: bolder; 
+    font-size:30px ;
+  } 
+   #emmy4{ 
+    border-color: blue; 
+    margin-right:10px ;
+} 
+ #emmy5{ 
+    border-color: blue; 
+    margin-left:10px ;
+ } 
+  #emmy6{ 
+    margin-right:280px; 
+    font-weight: lighter;
+  } 
+   
+   
+     #emmy10{ 
+        margin-right:310px ; 
+        font-weight: lighter;
+     } 
+      #emmy12{ 
+        margin-right:0px; 
+        width:100px; 
+        height:40px; 
+        border-color: whitesmoke; 
+  background-color: whitesmoke;
+      }
+       #emmy13{ 
+        margin-right:8px; 
+        width:100px; 
+        height:40px; 
+        border-color:whitesmoke ; 
+        background-color:whitesmoke ;
+       } 
+        #emmy14{ 
+            width:100px; 
+            height:40px; 
+            margin-right:50px ;
+        }  
+         #emmy15{ 
+            font-weight: lighter; 
+            font-size: small;
+         } 
+          #emmy16{
+            color:blue;
+          } 
+           #emmy17{ 
+            font-weight: lighter; 
+            font-size: small;
+           } 
+            #emmy18{ 
+                color:blue;
+            } 
+             #emmy19{ 
+                color: white; 
+                background-color:green ; 
+                width:180px;  
+                height:30px;
+                border-color: green; 
+                font-weight: bolder;  
+                border-radius:10px ; 
+                font-size:20px;
+
+             } 
+              #emmy8{ 
+                margin-right:20px ;
+              }
+          #emmy7{ 
+            margin-right:20px;
+          } 
+           

@@ -1,0 +1,68 @@
+<html> 
+    <head> 
+   <style> 
+      #screen{ 
+        width:300px; 
+        height:100px; 
+        background-color: black; 
+        color:white; 
+        box-shadow: 2px 3px 6px 4px rgba(0,0,0,0.5);
+      } 
+      input{ 
+        width:300px; 
+        height:40px;  
+        background-color: white; 
+        color:black;
+      } 
+      button{ 
+        background-color:black; 
+        color:white; 
+        border:none; 
+        border-radius: 10px; 
+        width:300px;  
+        height:40px;
+
+      }
+   </style>
+    </head> 
+    <body> 
+         
+         <div id="screen"></div> 
+         <fieldset> 
+            <legend>Simple Web Software</legend> 
+            <label>Email</label><br> 
+            <input type="text" id ="email" placeholder="Enter your Email"> 
+            <hr> 
+            <label>Name</label><br>  
+            <input type="text" id ="name" placeholder="Enter your Fullname">
+            <hr> 
+            <button onclick="register()">Register</button>
+
+         </fieldset>
+   <script> 
+    function register(){ 
+        event.preventDefault(); 
+        const email = document.getElementById("email").value; 
+        const name = document.getElementById("name").value;  
+        if(email ==='' || email ===undefined || email ===null || name ==='' || name ===undefined || name ===null){ 
+            document.getElementById("screen").innerHTML=`<font style="color:red; text-align:center;">fields cannot be empty</font>`; 
+        
+        } 
+        else{ 
+          const storedEmail = localStorage.getItem("userEmail"); 
+          const storedName = localStorage.getItem("userName"); 
+          if(storedEmail !==undefined && storedEmail !==null && storedEmail !==''){ 
+            document.getElementById("screen").innerHTML`Email Already Registered`;  
+        
+            
+          } 
+          else{ 
+            localStorage.setItem("userEmail", email); 
+            localStorage.setItem("userName", name); 
+            document.getElementById("screen").innerHTML=`Registered Succesfully`;
+          }
+        }
+    }
+   </script>
+    </body>
+</html>

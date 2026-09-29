@@ -1,0 +1,17 @@
+<html> 
+    <head> 
+
+    </head> 
+    <body> 
+        <!-- <button onclick="welcome()">Greetings</button>  -->
+        <input type="text" placeholder="Enter name" id="name"onkeydown="writeData()"> 
+         <div id="screen"></div>
+        <script>  
+            function writeData(){ 
+                const name = document.getElementById("name").value.trim();
+                document.getElementById("screen").textContent=name;
+                console.log(name);
+            }
+        </script>
+    </body>
+</html>

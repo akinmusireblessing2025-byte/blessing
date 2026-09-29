@@ -1,0 +1,43 @@
+<html> 
+    <head> 
+        <body>  
+            <div>
+         <input type ="text" id ="score"><br> 
+          
+         <button onclick="saveScores()">Save</button> 
+          
+         <button onclick="showScores()">Show</button> 
+          
+         <div id="screen"></div>
+              
+         <script> 
+            const database = []; 
+              
+            //create  a function that will save the scores entered by the users
+            function saveScores(){}
+                //prevent the page from reloading
+                event.preventDefault(); 
+                  
+                //now, get what the user entered
+                const dataEntered = document.getElementById("score").value; 
+                 
+                //now store the data inside the empty array 
+                database[database.length] = dataEntered; 
+                 
+                 
+                 
+
+                 
+                 
+                //create a function that will show the items in the array 
+                function showScores(){  
+                    let holdTheloop = ""; 
+                    for(let x = 0; x < database.length;x++){
+
+                }
+            }
+         </script>
+
+        </body>
+    </head>
+</html>

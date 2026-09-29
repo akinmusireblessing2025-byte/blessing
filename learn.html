@@ -1,0 +1,39 @@
+<html> 
+
+<head>
+
+</head>  
+<body>  
+        <fieldset>
+           <form>
+             <legend>Velocity calculator</legend>
+                <label>Distance</label> <br>
+                <input type="text" id="dist" /><br> 
+                <label>Time</label> <br>
+                <input type="text" id="time" /><br> 
+                <button onclick="cal()">calculate</button> 
+            </form>
+        </fieldset> 
+
+    <div id="message"></div> 
+
+
+    <script> 
+        function cal(){  
+            event.preventDefault();
+            let distance = document.getElementById("dist").value; 
+            let time = document.getElementById("time").value;
+
+            if(distance =="" || time ==""){ 
+                document.getElementById("message").innerHTML = "All fields are required"; 
+                return;
+            } 
+            else if(distance !="" && time !=""){ 
+                let result = distance / time; 
+                document.getElementById("message").innerHTML = "velocity is" + result;
+            }
+        }
+</script>
+
+</body>
+</html>

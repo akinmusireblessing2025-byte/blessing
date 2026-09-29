@@ -1,0 +1,29 @@
+<html> 
+    <head> 
+
+    </head> 
+    <body> 
+        <input type="email"id="email"><br> 
+        <input type="password"id="pwd"><br>
+        <button type="button"onclick="openAnotherwin()">Sign in</button> 
+         
+         <div id ="screen"></div>
+
+        <script> 
+            function openAnotherwin(){ 
+                const email = document.getElementById("email").value.trim(); 
+                const pwd = document.getElementById("pwd").value; 
+                 
+                const objectData = { 
+                    email:email, 
+                    password:pwd
+                } 
+                const keyData = "userData";  
+                const dataRetrive = localStorage.getItem(keyData); 
+                document.getElementById("screen").textContent=dataRetrive;
+            //  localStorage.setItem(keyData,JSON.stringify(objectData));// 
+
+            }
+        </script>
+    </body>
+</html>

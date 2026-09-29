@@ -1,0 +1,48 @@
+<html> 
+    <head> 
+  <link rel="stylesheet" href="ass2.css">
+    </head> 
+    <body>   
+      <div id ="emmy1">
+        <div id="enter"> </div>
+        <div id ="emmy3"> 
+            <br><br>
+         <label>Name:</label> 
+         <input type ="text" id ="name"><br><br>
+         <label>Email:</label> 
+         <input type ="email" id="email" onkeyup="email()" required><br />
+            <span id="screen"></span><br />
+         <label>PhoneNumber:</label> 
+         <input type="tel" id="num" onkeyup="num()" ><br />
+         <span id="num_screen"></span><br />
+         <label>Password:</label> 
+         <input type="password" onkeyup="pwd()" id="pwd"><br>
+          <span id="pwd_screen"></span><br>
+            <label for="">Confirm Password</label><br />
+          <input type="password" onkeyup="con_pwd()" id="con_pwd"><br />
+          <span id="pd_screen"></span><br />
+         <select id="Country">
+        <option value="">Select Country</option>
+         <option value="USA">United States</option> 
+         <option value="Canada">Canada</option> 
+         <option value="Mexico">Mexico</option> 
+         <option value="NIG">Nigeria</option> 
+         <option value="Spain">Spain</option>   
+         <option value="Ghana">Ghana</option> 
+         <option value="Egypt">Egypt</option> 
+         <option value="Brazil">Brazil</option> 
+         <option value="Portugal">Portugal</option> 
+         <option value="France">France</option> 
+         <option value="Croatia">Croatia</option> 
+         <option value="Belgium">Belgium</option> 
+         <option value="Togo">Togo</option> 
+         <option value="Iceland">Iceland</option> 
+
+    </select>   
+        </div>
+    <br><br>
+    <button id="but">Submit</button>
+        </div>  
+    </body>
+   <footer> <script src="ass1.js"></script></footer>
+</html>

@@ -1,0 +1,55 @@
+<html> 
+    <head> 
+
+    </head> 
+    <body> 
+        <fieldset> 
+            <legend>CBT SOFTWARE</legend> 
+            <label>Set Questions </label><br> 
+            <textarea name="" id ="question"></textarea> 
+            <hr> 
+            <label>Answer</label><Br> 
+            <textarea name="" id="answer"></textarea> 
+            <hr> 
+            <button onclick="cbtEXam()">Save Question</button><br>
+    
+          
+        <button onclick="saveTODB()">Save to Storage</button> 
+        </fieldset>
+        <script> 
+            const qstArray =[]; 
+            const AnsArray= []; 
+
+            function cbtEXam(){ 
+                event.preventDefault(); 
+                const qq = document.getElementById("question").value;  
+                const aa = document.getElementById("answer").value; 
+                 
+                 if(qq ==='' || qq ===undefined || qq ===null || aa === '' || aa ===undefined || aa ===null){  
+                    //alert("All fields must be filled"); 
+                    //return;
+                    document.getElementById("question").style.borderColor="red"; 
+                    document.getElementById("answer").style.borderColor="red";
+                 } 
+                 else{ 
+                    qstArray[qstArray.length] = qq; 
+                    AnsArray[AnsArray.length] = aa;  
+                     
+                     
+                
+
+                    console.log(qstArray); 
+                    console.log(AnsArray);
+                 }
+            } 
+             
+             
+             function saveTODB(){ 
+                event.preventDefault();   
+                localStorage.setItem("questionsSet",qstArray); 
+                localStorage.setItem("answersSet", AnsArray);
+
+             }
+        </script>
+    </body>
+</html>

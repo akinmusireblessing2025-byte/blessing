@@ -1,0 +1,61 @@
+ #emmy1{ 
+    color:blue;  
+    font-size: 30px;
+ } 
+  #emmy2{ 
+    margin-right:260px ;
+  } 
+  input{ 
+   background-color:rgba(8, 8, 255, 0.882); 
+   width:320px; 
+   border-radius: 40px; 
+   color:whitesmoke; 
+   height:40px ;   
+   border-color: blue;
+} 
+ #emmy3{ 
+    margin-right: 290px;
+ } 
+  #emmy4{ 
+    margin-right:250px ;
+  }    
+ #emmy5{ 
+     font-weight: bolder; 
+     font-size:30px ; 
+     color:white; 
+     background-color: blue; 
+     border-radius:20px; 
+     width:150px; 
+     border-color: blue;
+ }  
+  #emmy6{ 
+   border-top: none; 
+  background-color: blue; 
+   width:200px; 
+   border-color: blue; 
+   margin-right: 1px;;
+ }
+  #emmy7{ 
+color: blue; 
+font-weight: bolder; 
+margin-right:400px ;
+  } 
+   #emmy8{ 
+    border-top:none; 
+    width:150px; 
+    background-color: blue; 
+    margin-right:2px ;
+   }  
+    #emmy6{ 
+      color:blue;
+    }
+    
+     #emmy7{ 
+      color:blue; 
+    
+     } 
+      #emmy8{ 
+        color:blue;
+      }
+  
+   

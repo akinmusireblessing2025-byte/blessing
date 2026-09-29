@@ -1,0 +1,31 @@
+<html> 
+    <head>  
+        <style> 
+             body{ 
+                width:650px; 
+                background-color:blue ;
+             }
+        </style>
+
+    </head> 
+    <body>     
+        <div id ="screen"></div>
+        <body style="text-align: center;">
+        <label>Name:</label> 
+        <input type="text" id ="emmy1"><br><br>
+        <button onclick = "submit()">Submit</button>
+        
+ <script> 
+    function submit(){ 
+      const one = document.getElementById("emmy1").value;
+      const two = one.length;
+      document.getElementById("screen").textContent=two;
+      console.log(one);
+
+    
+ }
+ </script>
+
+         
+    </body>
+</html>

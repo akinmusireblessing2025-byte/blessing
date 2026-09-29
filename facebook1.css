@@ -1,0 +1,14 @@
+ body{  
+  background-color: blue;  
+  padding:50;
+ } 
+  .face{ 
+    font-weight: bolder; 
+    font-size: 30px;
+  } 
+    .forget{ 
+        font-size:small; 
+        font-weight: bold; 
+        color:white;
+    } 
+    
