@@ -1,0 +1,101 @@
+body{ 
+    background: beige; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    min-height: 100vh; 
+    margin:0; 
+    font-family: Arial,sans-serif;
+} 
+ 
+.calc{ 
+    background:black; 
+    width:340px; 
+    padding:20px; 
+    border-radius:25px; 
+    box-shadow:0 20px 50px rgba(0,0,0,0.3);
+} 
+ 
+.calc h2{ 
+    color:white; 
+    text-align: center; 
+    letter-spacing:2px; 
+    margin: 0 0 15px 0; 
+    font-size:18px;
+} 
+.calc h2 span{ 
+    color:orange;
+} 
+ 
+.screen{ 
+    background: white; 
+    border-radius:15px; 
+    padding:15px; 
+    text-align: right; 
+    min-height:70px; 
+    margin-bottom:15px;
+}   
+ 
+.history{ 
+    font-size:14px; 
+    color:gray; 
+    min-height:18px;
+} 
+ 
+ #display{ 
+    font-size:36px; 
+    font-weight: bold; 
+    color:black; 
+    word-wrap:break-word;
+ } 
+  
+  #error{ 
+    font-size:12px; 
+    color:red; 
+    min-height: 14px; 
+    margin-top:4px;
+  } 
+   
+  .button{ 
+    display: grid; 
+    grid-template-columns:repeat(4,1fr); 
+    gap:12px;
+  } 
+    
+.btn{ 
+    height:58px; 
+    border:none; 
+    border-radius:14px; 
+    font-size:20px; 
+    font-weight: bold; 
+    cursor:pointer;
+} 
+ 
+.btn:active{ 
+    transform:scale(0.95);
+} 
+ 
+.dark{ 
+    background: dimgray; 
+    color:white; 
+} 
+ 
+ 
+.orange{ 
+    background: orange; 
+    color:white;
+} 
+ 
+.equal{ 
+    background: white; 
+    color:black; 
+    grid-column:span 2; 
+    font-size: 28px;
+} 
+ 
+  .keyhint{ 
+    text-align: center; 
+    color:gray; 
+    font-size:10px; 
+    margin-top:14px;
+  }

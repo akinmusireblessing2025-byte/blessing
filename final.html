@@ -1,0 +1,30 @@
+<html> 
+    <head> 
+    <meta charset="UTF-8"> 
+ <title>Dashboard</title> 
+ <Link rel="stylesheet" href="design.css">
+    </head> 
+    <body onload="loadDashboard()"> 
+    <div class="container"> 
+    <h2 id="welcome"></h2> 
+    <div class="card"> 
+    <input type="date" id="date"> 
+    <img src="Screenshot_20250805-170307.jpg" alt="restaurant"> 
+    <div class="card-body"> 
+    <h3>Book Tablet</h3><br> 
+    <input type="date" id="date"> 
+    <input type="time" id="time"> 
+    <button onclick="bookTable()">Book Now</button>
+    </div>
+    </div> 
+    <div class="card"> 
+    <div class="card-body">  
+    <div id="list"></div> 
+    <br> 
+    <button onclick="Dologout()" style="background-color:red;">Logout</button>
+    </div>
+    </div>
+    </div> 
+    <script src="home.js"></script>
+    </body>
+</html>
